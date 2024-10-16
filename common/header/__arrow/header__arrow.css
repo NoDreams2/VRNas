@@ -1,0 +1,15 @@
+.header__arrow {
+    max-width: 6px;
+    max-height: 6px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    transition: transform 0.3s;
+    color: #b6b6b6;
+    transition: color 0.4s ease;
+}
+
+.header__arrow:hover {
+    color: #fff;
+}

@@ -1,0 +1,10 @@
+.header__link {
+    font-family: "ChakraPetch-Light", sans-serif;
+    text-decoration: none;
+    color: #b6b6b6;
+    transition: color 0.4s ease;
+}
+
+.header__link:hover {
+    color: #ffffff;
+}

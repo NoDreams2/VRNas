@@ -7,46 +7,67 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="body">
+    <div class="header__image"></div>
     <header class="header">
       <div class="header__container">
-        <img src="./images/icons/logo.svg" alt="Логотип VRNas" />
+        <a class="header__link" href="#!">
+          <img class="header__logo-img" src="./images/icons/logo.svg" alt="Логотип VRNas" />
+        </a>
+        <ul class="header__list">
+          <li class="hader__item">
+            <a class="header__link header__link_white" href="#!"> Home </a>
+          </li>
+          <li class="hader__item">
+            <a class="header__link" href="#!"> About us </a>
+          </li>
+          <li class="hader__item">
+            <a class="header__link" href="#!"> Service </a>
+          </li>
+          <li class="header__item">
+            <div class="hedaer__spoller">
+              <a class="header__link" href="#!"> Page </a>
+              <button id="arrow-first" class="header__arrow">&#11167;</button>
+              <ul class="header__menu-1">
+                <li class="hader__menu-item">
+                  <a class="header__link" href="#!">Pricing Plan</a>
+                </li>
+                <li class="hader__menu-item">
+                  <a class="header__link" href="#!">FAQ</a>
+                </li>
+                <li class="hader__menu-item">
+                  <a class="header__link" href="#!">Tems & Conditions</a>
+                </li>
+                <li class="hader__menu-item">
+                  <a class="header__link header__link_line" href="#!">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <div class="hedaer__spoller">
+              <a class="header__link" href="#!"> Blog </a>
+              <button id="arrow-second" class="header__arrow">&#11167;</button>
+              <ul class="header__menu-2">
+                <li class="hader__menu-item">
+                  <a class="header__link" href="#!">Resent articles</a>
+                </li>
+                <li class="hader__menu-item">
+                  <a class="header__link" href="#!">Out Team</a>
+                </li>
+                <li class="hader__menu-item">
+                  <a class="header__link" href="#!">Details Service</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <button class="header__button">
+          <a class="header__button-link" header href="#!">Contact us</a>
+        </button>
       </div>
-      <ul class="header__list">
-        <li class="hader__item">
-          <a class="header__link" href="#!"> Home </a>
-        </li>
-        <li class="hader__item">
-          <a class="header__link" href="#!"> About us </a>
-        </li>
-        <li class="hader__item">
-          <a class="header__link" href="#!"> Service </a>
-        </li>
-        <li class="header__item">
-          <div class="hedaer__spoller">
-            <a class="header__link" href="#!"> Page </a>
-            <span class="header__arrow-top header__arrow-top"></span>
-            <ul class="header__menu">
-              <li class="hader__menu-item">
-                <a class="header__menu-link" href="#!">Pricing Plan</a>
-              </li>
-              <li class="hader__menu-item">
-                <a class="header__menu-link" href="#!">FAQ</a>
-              </li>
-              <li class="hader__menu-item">
-                <a class="header__menu-link" href="#!">Tems & Conditions</a>
-              </li>
-              <li class="hader__menu-item">
-                <a class="header__menu-link" href="#!">Privacy Policy</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li class="hader__item">
-          <a class="header__link" href="#!"> Blog </a>
-        </li>
-      </ul>
     </header>
   </body>
 
-  <script src="./js/drop-down-menu.js"></script>
+  <script src="./js/arrow.js"></script>
+  <script src="./js/header-button.js"></script>
 </html>

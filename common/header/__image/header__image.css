@@ -1,0 +1,10 @@
+.header__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 736px;
+  height: 352.2px;
+  background-image: url("../../../images/header.png");
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
