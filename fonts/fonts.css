@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "ChakraPetch-bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 14px;
+  src: url("./ChakraPetch-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "ChakraPetch-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./ChakraPetch-SemiBold.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ChakraPetch-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./ChakraPetch-Medium.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ChakraPetch-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./ChakraPetch-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+@font-face {
+  font-family: "ChakraPetch-Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  src: url("./ChakraPetch-Light.woff2") format("woff2");
+  font-display: swap;
+}
+
+
