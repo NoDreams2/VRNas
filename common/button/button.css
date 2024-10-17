@@ -1,0 +1,29 @@
+.button {
+    position: relative;
+    background: transparent;
+    border: none;
+    cursor: pointer; 
+    outline: none; 
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, #0CBAF1, #E95CE9);
+    z-index: -1; 
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    inset: 0; 
+    background: linear-gradient(to right, #0CBAF1, #E95CE9);
+    z-index: -2; 
+    transition: filter 0.4s ease; 
+    filter: blur(0); 
+}
+
+.button:hover::after {
+    filter: blur(20px);
+}

@@ -1,0 +1,14 @@
+.welcome__client-link {
+  position: relative;
+  background-color: #21232e;
+  max-height: 128px;
+  overflow: hidden;
+}
+
+.welcome__client-link:hover .welcome__client-video {
+  transform: scale(1.1);
+}
+
+.welcome__client-link:hover .welcome__client-play {
+    transform: scale(1.3);
+  }

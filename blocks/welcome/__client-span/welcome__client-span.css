@@ -1,0 +1,18 @@
+.welcome__client-span {
+    font-family: "ChakraPetch-SemiBold", sans-serif;
+    color: #fff;
+    position: relative;
+}
+
+.welcome__client-span:before {
+    content: "";
+    display: block;
+    width: 47.7px;
+    height: 7px;
+    background-image: url("../../../images/client.png");
+    background-repeat: no-repeat;
+    top: 16px;
+    left: 40%;
+    transform: translateX(-50%);
+    position: absolute;
+}

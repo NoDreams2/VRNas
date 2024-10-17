@@ -1,0 +1,7 @@
+.welcome__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 46px auto 0 auto;
+}

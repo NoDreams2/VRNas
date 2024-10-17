@@ -6,22 +6,42 @@
 @import url("../common/body/body.css");
 /* body */
 
+/* header */
 @import url("../common/header/__arrow/header__arrow.css");
-
 @import url("../common/header/__menu-1/header__menu-1.css");
-
 @import url("../common/header/__menu-2/header__menu-2.css");
-
 @import url("../common/header/__container/header__container.css");
-
 @import url("../common/header/__list/header__list.css");
-
 @import url("../common/header/__link/header__link.css");
-
 @import url("../common/header/__link/_white/header__link_white.css");
-
 @import url("../common/header/__button/header__button.css");
-
 @import url("../common/header/__buttton-link/header__button-link.css");
-
 @import url("../common/header/__image/header__image.css");
+/* header */
+
+/* welcome */
+@import url("../blocks/welcome/__container/welcome__container.css");
+@import url("../blocks/welcome/__content/welcome__content.css");
+@import url("../blocks/welcome/__client/welcome__client.css");
+@import url("../blocks/welcome/__text-button/welcome__text-button.css");
+@import url("../common/title/title.css");
+@import url("../blocks/welcome/__title/welcome___title.css");
+@import url("../common/desc/desc.css");
+@import url("../blocks/welcome/__desc/welcome__desc.css");
+@import url("../common/button/button.css");
+@import url("../common/button-link/button-link.css");
+@import url("../blocks/welcome/__button/welcome__button.css");
+@import url("../blocks/welcome/__client/welcome__client.css");
+@import url("../blocks/welcome/__client-separately/welcome__client-separately.css");
+@import url("../blocks/welcome/__client-text/welcome__client-text.css");
+@import url("../blocks/welcome/__client-span/welcome__client-span.css");
+@import url("../blocks/welcome/__picture/welcome__picture.css");
+@import url("../blocks/welcome/__client-link/welcome__client-link.css");
+@import url("../blocks/welcome/__client-video/welcome__client-video.css");
+@import url("../blocks/welcome/__client-play/welcome__client-play.css");
+/* welcome */
+
+
+
+
+

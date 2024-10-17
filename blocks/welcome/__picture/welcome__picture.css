@@ -1,0 +1,17 @@
+.welcome__picture {
+    position: relative;
+}
+
+.welcome__picture::before {
+    content: ''; 
+    position: absolute; 
+    top: 10%; 
+    left: -40%; 
+    width: 1100px; 
+    height: 600px; 
+    background-image: url("../../../images/welcome-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; 
+}
+

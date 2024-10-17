@@ -1,0 +1,5 @@
+.welcome__client-video {
+    padding-inline: 36px;
+    margin-top: 4px;
+    transition: transform 0.6s ease;
+}
