@@ -7,4 +7,6 @@
   background-image: url("../../../images/grid.png");
   background-repeat: no-repeat;
   pointer-events: none;
+  padding-top: 10px;
+  z-index: -1;
 }

@@ -1,0 +1,13 @@
+.header {
+    position: fixed;
+    top: 0;
+    inset-inline: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
+
+.header.scroll {
+    background-color: #252532;
+}
