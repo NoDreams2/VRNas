@@ -32,22 +32,29 @@
 @import url("../blocks/welcome/__content/welcome__content.css");
 @import url("../blocks/welcome/__client/welcome__client.css");
 @import url("../blocks/welcome/__text-button/welcome__text-button.css");
-@import url("../blocks/welcome/__title/welcome___title.css");
+@import url("../blocks/welcome/__title/welcome__title.css");
 @import url("../blocks/welcome/__desc/welcome__desc.css");
+@import url("../blocks/welcome/__desc/_element-animation/welcome__desc_element-animation.css");
 @import url("../blocks/welcome/__button/welcome__button.css");
+@import url("../blocks/welcome/__button/_element-animation/welcome__button_element-animation.css");
 @import url("../blocks/welcome/__client/welcome__client.css");
+@import url("../blocks/welcome/__client/_element-animation/welcome__client_element-animation.css");
 @import url("../blocks/welcome/__client-separately/welcome__client-separately.css");
 @import url("../blocks/welcome/__client-text/welcome__client-text.css");
 @import url("../blocks/welcome/__client-span/welcome__client-span.css");
+@import url("../blocks/welcome/__img/welcome__img.css");
 @import url("../blocks/welcome/__picture/welcome__picture.css");
 @import url("../blocks/welcome/__client-link/welcome__client-link.css");
 @import url("../blocks/welcome/__client-video/welcome__client-video.css");
 @import url("../blocks/welcome/__client-play/welcome__client-play.css");
 @import url("../blocks/welcome/__image/welcome__image.css");
+@import url("../blocks/welcome/__img/_element-animation/welcome__img_element-animation.css");
+@import url("../blocks/welcome/__title/_element-animation/welcome__title_element-animation.css");
 /* welcome */
 
 /* advantages */
 @import url("../blocks/advantages/__container/advantages__container.css");
+@import url("../blocks/advantages/__container/_eliment-animation/advantages__container_element-animation.css");
 @import url("../blocks/advantages/__list/advantages__list.css");
 @import url("../blocks/advantages/__img/advantages__img.css");
 @import url("../blocks/advantages/__title/advantages__title.css");
