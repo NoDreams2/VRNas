@@ -1,0 +1,10 @@
+.welcome__image {
+  position: absolute;
+  top: 285px;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../../images/grid.png");
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
