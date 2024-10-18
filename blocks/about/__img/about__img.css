@@ -1,3 +1,4 @@
 .about__img {
     padding-left: 24px;
+    z-index: 1;
 }

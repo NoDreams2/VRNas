@@ -1,0 +1,16 @@
+.about__shadow {
+    position: relative;
+}
+
+.about__shadow::before {
+    content: ''; 
+    position: absolute; 
+    left: -250px; 
+    bottom: -622px;
+    width: 1000px; 
+    height: 508px; 
+    background-image: url("../../../images/welcome-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; 
+}
