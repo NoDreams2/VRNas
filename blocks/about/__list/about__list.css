@@ -1,0 +1,10 @@
+.about__list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: "ChakraPetch-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}

@@ -1,0 +1,6 @@
+.about__play {
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    transition: transform 0.6s;
+}

@@ -12,6 +12,9 @@
 
 }
 .header__menu-1.active {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
     opacity: 1; 
     height: auto; 
     padding: 10px;

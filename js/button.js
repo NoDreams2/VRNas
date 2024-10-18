@@ -11,3 +11,11 @@ const link2 = document.querySelector(".button-link");
 button2.addEventListener("click", () => {
   window.location.href = link2.href;
 });
+
+const button3 = document.querySelector(".about__button");
+const link3 = document.querySelector(".about__button-link");
+
+button3.addEventListener("click", () => {
+  window.location.href = link3.href;
+});
+

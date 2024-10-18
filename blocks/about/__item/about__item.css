@@ -1,0 +1,14 @@
+.about__item {
+    position: relative;
+    padding-left: 28px;
+}
+
+.about__item::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    top: 4px;
+    left: 0;
+    background-image: url("../../../images/icons/mark.svg");
+}

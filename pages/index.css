@@ -9,8 +9,10 @@
 @import url("../common/button/button.css");
 @import url("../common/button-link/button-link.css");
 @import url("../common/list/list.css");
-@import url("../common/title-h3/title-h3.css");
+@import url("../common/title-h4/title-h4.css");
 @import url("../common/description/description.css");
+@import url("../common/title-h3/title-h3.css");
+@import url("../common/title-h2/title-h2.css");
 /* general */
 
 /* header */
@@ -59,6 +61,22 @@
 @import url("../blocks/advantages/__img/advantages__img.css");
 @import url("../blocks/advantages/__title/advantages__title.css");
 /* advantages */
+
+/* about */
+@import url("../blocks/about/__container/about__container.css");
+@import url("../blocks/about/__images/about__images.css");
+@import url("../blocks/about/__img/about__img.css");
+@import url("../blocks/about/__link/about__link.css");
+@import url("../blocks/about/__vr/about__vr.css");
+@import url("../blocks/about/__play/about__play.css");
+@import url("../blocks/about/__content/about__content.css");
+@import url("../blocks/about/__title-h3/about__title-h3.css");
+@import url("../blocks/about/__title-h2/about__title-h2.css");
+@import url("../blocks/about/__desc/about__desc.css");
+@import url("../blocks/about/__list/about__list.css");
+@import url("../blocks/about/__item/about__item.css");
+@import url("../blocks/about/__button/about__button.css");
+/* about */
 
 
 

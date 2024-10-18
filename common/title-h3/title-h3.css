@@ -1,7 +1,14 @@
 .title-h3 {
-    font-family: "ChakraPetch-Regular", sans-serif;
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin: 0;
+  font-family: "ChakraPetch-Medium", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20.8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #0CBAF1 33%, #E95CE9 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0b2349;
+  display: table;
+  margin: 0;
 }
