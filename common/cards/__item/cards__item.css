@@ -1,0 +1,6 @@
+.cards__item {
+    max-width: 379px;
+    max-height: 291px;
+    padding-inline: 15px;
+    margin-bottom: 30px;
+}

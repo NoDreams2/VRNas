@@ -1,0 +1,7 @@
+.cards__body {
+    min-width: 308px;
+    height: 229px;
+    background-color: #252532;
+    border: 1px solid #B0B0B2;
+    padding: 35px 28px 25px 32px;
+}
