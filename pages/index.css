@@ -86,6 +86,14 @@
 @import url("../blocks/about/__shadow/about__shadow.css");
 /* about */
 
+/* service */
+@import url("../blocks/service/__container/service__container.css");
+@import url("../blocks/service/__texts/service__texts.css");
+@import url("../blocks/service/__titles/service__titles.css");
+@import url("../blocks/service/__title-h3/service__title-h3.css");
+@import url("../blocks/service/__desc/service__desc.css");
+/* service */
+
 
 
 

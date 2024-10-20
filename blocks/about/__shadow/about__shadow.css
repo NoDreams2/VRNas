@@ -5,10 +5,10 @@
 .about__shadow::before {
     content: ''; 
     position: absolute; 
-    left: -250px; 
+    left: -300px; 
     bottom: -622px;
-    width: 1000px; 
-    height: 508px; 
+    width: 1050px; 
+    height: 600px; 
     background-image: url("../../../images/welcome-background.png");
     background-repeat: no-repeat;
     background-size: cover;

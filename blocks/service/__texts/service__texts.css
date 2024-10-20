@@ -1,0 +1,6 @@
+.service__texts {
+    display: flex;
+    gap: 264px;
+    max-width: 1170px;
+    margin-bottom: 46px;
+}
