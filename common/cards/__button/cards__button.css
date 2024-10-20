@@ -1,0 +1,26 @@
+.cards__button {
+  margin-left: 100px;
+  margin-top: 20px;
+  transition: 0.4s;
+  width: 177px;
+  height: 50px;
+  position: relative;
+  background: transparent;
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9) 1;
+  cursor: pointer;
+  outline: none;
+  z-index: 1;
+}
+
+.cards__button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #0cbaf1, #e95ce9);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cards__button:hover::before {
+  opacity: 1;
+}

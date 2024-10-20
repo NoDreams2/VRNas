@@ -92,6 +92,7 @@
 @import url("../blocks/service/__titles/service__titles.css");
 @import url("../blocks/service/__title-h3/service__title-h3.css");
 @import url("../blocks/service/__desc/service__desc.css");
+@import url("../blocks/service/__shadow/service__shadow.css");
 /* cards */
 @import url("../common/cards/cards.css");
 @import url("../common/cards/__list/cards__list.css");
@@ -102,6 +103,9 @@
 @import url("../common/cards/__desc/cards__desc.css");
 @import url("../blocks/service/__cards-item/_margin-top-2/service__cards-item_margin-top-2.css");
 @import url("../blocks/service/__cards-item/_margin-top-3/service__cards-item_margin-top-3.css");
+@import url("../common/cards/__button/cards__button.css");
+@import url("../common/cards/__button-link/cards__button-link.css");
+@import url("../common/cards/__container/cards__container.css");
 /* cards */
 /* service */
 

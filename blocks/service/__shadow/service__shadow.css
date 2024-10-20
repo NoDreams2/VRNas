@@ -1,0 +1,11 @@
+.service__shadow {
+    position: absolute;
+    width: 800px;
+    height: 554px;
+    top: -100px;
+    right: -350px;
+    background-image: url("../../../images/welcome-background.png");
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    pointer-events: none;
+}

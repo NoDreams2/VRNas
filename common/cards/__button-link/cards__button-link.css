@@ -1,0 +1,12 @@
+.cards__button-link {
+  font-family: "ChakraPetch-bold", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}

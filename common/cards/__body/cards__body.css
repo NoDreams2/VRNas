@@ -1,7 +1,32 @@
 .cards__body {
-    min-width: 308px;
-    height: 229px;
-    background-color: #252532;
-    border: 1px solid #B0B0B2;
-    padding: 35px 28px 25px 32px;
+  position: relative;
+  min-width: 308px;
+  height: 229px;
+  background-color: #252532;
+  border: 1px solid #b0b0b2;
+  padding: 35px 28px 25px 32px;
+  cursor: pointer;
+  overflow: hidden;
 }
+
+.cards__body::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(37, 37, 50, 0);
+  transition: background-color 0.3s ease;
+}
+
+.cards__body:hover::before {
+  background-color: rgba(37, 37, 50, 0.7);
+}
+
+.cards__body:hover {
+  border-image: linear-gradient(to right, #0cbaf1, #e95ce9);
+  border-image-slice: 1;
+}
+
+

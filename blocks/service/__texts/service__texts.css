@@ -1,4 +1,5 @@
 .service__texts {
+    position: relative;
     display: flex;
     gap: 264px;
     max-width: 1170px;
