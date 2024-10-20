@@ -13,6 +13,10 @@ function showElements() {
   const aboutDescTargets = document.querySelectorAll(".about__desc_element-animation");
   const aboutListTargets = document.querySelectorAll(".about__list_element-animation");
   const aboutButtonTargets = document.querySelectorAll(".about__button_element-animation");
+  const serviceTitleH3Targets = document.querySelectorAll(".service__title-h3_element-animation");
+  const serviceTitleH2Targets = document.querySelectorAll(".service__title-h2_element-animation");
+  const serviceDescTargets = document.querySelectorAll(".service__desc_element-animation");
+  const serviceCardsItemTargets = document.querySelectorAll(".service__cards-item_element-animation");
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -70,6 +74,22 @@ function showElements() {
   });
 
   aboutButtonTargets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  serviceTitleH3Targets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  serviceTitleH2Targets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  serviceDescTargets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  serviceCardsItemTargets.forEach((target) => {
     observer.observe(target);
   });
 }

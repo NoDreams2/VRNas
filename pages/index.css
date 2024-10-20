@@ -93,6 +93,10 @@
 @import url("../blocks/service/__title-h3/service__title-h3.css");
 @import url("../blocks/service/__desc/service__desc.css");
 @import url("../blocks/service/__shadow/service__shadow.css");
+@import url("../blocks/service/__title-h3/_element-animation/service__title-h3_element-animation.css");
+@import url("../blocks/service/__title-h2/_element-animation/service__title-h2_element-animation.css");
+@import url("../blocks/service/__desc/_element-animation/service__desc_element-animation.css");
+@import url("../blocks/service/__cards-item/_element-animation/service__cards-item_element-animation.css");
 /* cards */
 @import url("../common/cards/cards.css");
 @import url("../common/cards/__list/cards__list.css");
