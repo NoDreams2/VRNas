@@ -1,0 +1,8 @@
+.choose__button {
+    background-color: transparent;
+    border: none;
+    color: #b6b6b6;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 30px;
+}

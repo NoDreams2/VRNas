@@ -113,7 +113,17 @@
 /* cards */
 /* service */
 
-
+/* choose */
+@import url("../blocks/choose/__container/choose__container.css");
+@import url("../blocks/choose/__text/choose__text.css");
+@import url("../blocks/choose/__title-h3/choose__title-h3.css");
+@import url("../blocks/choose/__title-h2/choose__title-h2.css");
+@import url("../blocks/choose/__item/choose__item.css");
+@import url("../blocks/choose/__content/choose__content.css");
+@import url("../blocks/choose/__title-h4/choose__title-h4.css");
+@import url("../blocks/choose/__button/choose__button.css");
+@import url("../blocks/choose/__desc/choose__desc.css");
+/* choose */
 
 
 

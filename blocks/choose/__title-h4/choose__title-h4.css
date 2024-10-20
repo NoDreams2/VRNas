@@ -1,0 +1,19 @@
+.choose__title-h4 {
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.choose__title-h4:not(:first-child) {
+    margin-bottom: 48px;
+}
+
+.choose__title-h4::before {
+    position: absolute;
+    content: '';
+    width: 545px;
+    height: 1px;
+    background-color: #FFFFFF59;
+    bottom: -7px;
+    left: 0;
+}

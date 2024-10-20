@@ -10,10 +10,10 @@ arrowFirst.addEventListener("click", () => {
 
   if (isUp1) {
     arrowFirst.innerHTML = "&#11165;";
-    menu1.classList.add('active'); // Добавляем класс для активации
+    menu1.classList.add('active'); 
   } else {
     arrowFirst.innerHTML = "&#11167;";
-    menu1.classList.remove('active'); // Убираем класс для деактивации
+    menu1.classList.remove('active'); 
   }
   isUp1 = !isUp1;
 });
@@ -30,10 +30,10 @@ arrowSecond.addEventListener("click", () => {
 
   if (isUp2) {
     arrowSecond.innerHTML = "&#11165;";
-    menu2.classList.add('active'); // Добавляем класс для активации
+    menu2.classList.add('active'); 
   } else {
     arrowSecond.innerHTML = "&#11167;";
-    menu2.classList.remove('active'); // Убираем класс для деактивации
+    menu2.classList.remove('active'); 
   }
   isUp2 = !isUp2;
 });
