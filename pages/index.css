@@ -117,12 +117,24 @@
 @import url("../blocks/choose/__container/choose__container.css");
 @import url("../blocks/choose/__text/choose__text.css");
 @import url("../blocks/choose/__title-h3/choose__title-h3.css");
+@import url("../blocks/choose/__title-h3/_element-animation/choose__title-h3_element-animation.css");
 @import url("../blocks/choose/__title-h2/choose__title-h2.css");
+@import url("../blocks/choose/__title-h2/_element-animation/choose__title-h2_element-animation.css");
+@import url("../blocks/choose/__list/_element-animation/choose__list_element-animation.css");
 @import url("../blocks/choose/__item/choose__item.css");
 @import url("../blocks/choose/__content/choose__content.css");
 @import url("../blocks/choose/__title-h4/choose__title-h4.css");
 @import url("../blocks/choose/__button/choose__button.css");
-@import url("../blocks/choose/__desc/choose__desc.css");
+@import url("../blocks/choose/__desc-1/choose__desc-1.css");
+@import url("../blocks/choose/__desc-2/choose__desc-2.css");
+@import url("../blocks/choose/__desc-3/choose__desc-3.css");
+@import url("../blocks/choose/__images/choose__images.css");
+@import url("../blocks/choose/__images/_element-animation/choose__images_element-animation.css");
+@import url("../blocks/choose/__link/choose__link.css");
+@import url("../blocks/choose/__play/choose__play.css");
+@import url("../blocks/choose/__vr/choose__vr.css");
+@import url("../blocks/choose/__picture/choose__picture.css");
+@import url("../blocks/choose/__shadow/choose__shadow.css");
 /* choose */
 
 

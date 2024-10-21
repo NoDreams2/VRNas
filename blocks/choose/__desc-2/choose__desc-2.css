@@ -1,0 +1,12 @@
+.choose__desc-2 {
+    font-family: "ChakraPetch-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0 0 48px 0;
+    color: #D1D1D1;
+    display: none;
+}
+
+.choose__desc-2.active {
+    display: block;
+}

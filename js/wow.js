@@ -17,6 +17,10 @@ function showElements() {
   const serviceTitleH2Targets = document.querySelectorAll(".service__title-h2_element-animation");
   const serviceDescTargets = document.querySelectorAll(".service__desc_element-animation");
   const serviceCardsItemTargets = document.querySelectorAll(".service__cards-item_element-animation");
+  const chooseTitleH3Targets = document.querySelectorAll(".choose__title-h3_element-animation");
+  const chooseTitleH2Targets = document.querySelectorAll(".choose__title-h2_element-animation");
+  const chooseListTargets = document.querySelectorAll(".choose__list_element-animation");
+  const chooseImagesTargets = document.querySelectorAll(".choose__images_element-animation");
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -90,6 +94,22 @@ function showElements() {
   });
 
   serviceCardsItemTargets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  chooseTitleH3Targets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  chooseTitleH2Targets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  chooseListTargets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  chooseImagesTargets.forEach((target) => {
     observer.observe(target);
   });
 }

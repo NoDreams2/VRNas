@@ -5,4 +5,9 @@
     cursor: pointer;
     padding: 0;
     margin-bottom: 30px;
+    transition: color 0.4s ease;
+}
+
+.choose__button:hover {
+    color: #fff;
 }

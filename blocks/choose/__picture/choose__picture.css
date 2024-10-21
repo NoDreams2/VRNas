@@ -1,0 +1,16 @@
+.choose__picture {
+    position: relative;
+}
+
+.choose__picture::before {
+    content: ''; 
+    position: absolute; 
+    left: 63px; 
+    top: 166px;
+    width: 399px; 
+    height: 497px; 
+    background-image: url("../../../images/Bg-about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; 
+}

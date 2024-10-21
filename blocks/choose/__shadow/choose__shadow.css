@@ -1,0 +1,18 @@
+.choose__shadow {
+    position: relative;
+}
+
+.choose__shadow::before {
+    content: ''; 
+    position: absolute; 
+    left: -250px; 
+    bottom: -622px;
+    width: 1050px; 
+    height: 600px; 
+    opacity: 0.5;
+    background-image: url("../../../images/welcome-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; 
+    pointer-events: none;
+}
