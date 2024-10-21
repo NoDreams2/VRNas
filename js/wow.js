@@ -21,6 +21,10 @@ function showElements() {
   const chooseTitleH2Targets = document.querySelectorAll(".choose__title-h2_element-animation");
   const chooseListTargets = document.querySelectorAll(".choose__list_element-animation");
   const chooseImagesTargets = document.querySelectorAll(".choose__images_element-animation");
+  const startedTitleH3Targets = document.querySelectorAll(".started__title-h3_element-animation");
+  const startedTitleH2Targets = document.querySelectorAll(".started__title-h2_element-animaiton");
+  const startedVideoTargets = document.querySelectorAll(".started__video_element-animation");
+  const startedButtonTargets = document.querySelectorAll(".started__button_element-animation");
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -112,4 +116,21 @@ function showElements() {
   chooseImagesTargets.forEach((target) => {
     observer.observe(target);
   });
+
+  startedTitleH3Targets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  startedTitleH2Targets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  startedVideoTargets.forEach((target) => {
+    observer.observe(target);
+  });
+
+  startedButtonTargets.forEach((target) => {
+    observer.observe(target);
+  });
 }
+

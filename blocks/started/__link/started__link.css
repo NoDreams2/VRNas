@@ -1,0 +1,14 @@
+.started__link {
+    position: relative;
+    width: 1200px;
+    height: 522px;
+    overflow: hidden;
+}
+
+.started__link:hover .started__img {
+    transform: scale(1.1);
+}
+
+.started__link:hover .started__play {
+    transform: scale(1.4);
+}

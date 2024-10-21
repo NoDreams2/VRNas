@@ -1,0 +1,30 @@
+.started__empty {
+    position: relative;
+}
+
+.started__empty::after {
+    position: absolute;
+    content: '';
+    left: 62px;
+    height: 8px;
+    top: 477px;
+    width: 8px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    opacity: 1;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.started__empty::before {
+    content: ''; 
+    position: absolute;
+    background-image: url("../../../images/icons/started-play.png");
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 14px;
+    left: 35px;
+    top: 473px;
+    pointer-events: none;
+    z-index: 2;
+}

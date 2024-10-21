@@ -1,0 +1,7 @@
+.started__play {
+    position: absolute;
+    z-index: 1;
+    top: -300px;
+    left: 550px;
+    transition: transform 0.6s ease;
+}

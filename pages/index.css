@@ -137,5 +137,24 @@
 @import url("../blocks/choose/__shadow/choose__shadow.css");
 /* choose */
 
+/* started */
+@import url("../blocks/started/__container/started__container.css");
+@import url("../blocks/started/__title-h3/started__title-h3.css");
+@import url("../blocks/started/__title-h3/_element-animation/started__title-h3_element-animation.css");
+@import url("../blocks/started/__title-h2/started__title-h2.css");
+@import url("../blocks/started/__title-h2/_element-animation/started__title-h2_element-animaiton.css");
+@import url("../blocks/started/__span/started__span.css");
+@import url("../blocks/started/__video/started__video.css");
+@import url("../blocks/started/__video/_element-animation/started__video_element-animation.css");
+@import url("../blocks/started/__title-video/started__title-video.css");
+@import url("../blocks/started/__link/started__link.css");
+@import url("../blocks/started/__play/started__play.css");
+@import url("../blocks/started/__img/started__img.css");
+@import url("../blocks/started/__button/started__button.css");
+@import url("../blocks/started/__button/_element-animation/started__button_element-animation.css");
+@import url("../blocks/started/__empty/started__empty.css");
+@import url("../blocks/started/__shadow/started__shadow.css");
+/* started */
+
 
 

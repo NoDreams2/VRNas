@@ -1,0 +1,13 @@
+.started__title-video {
+    font-family: "ChakraPetch-Medium", sans-serif;
+    position: absolute;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -2%;
+    top: 60px;
+    left: 34px;
+    pointer-events: none;
+    z-index: 1;
+}
